@@ -1,16 +1,67 @@
-# React + Vite
+# React Product Filter & Sort
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React application that displays products and allows users to search, filter, and sort them.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Display products with name, category, price, and rating.
+- Search products by name.
+- Filter products by category.
+- Sort products by:
+  - Price: Low to High
+  - Price: High to Low
+  - Rating: High to Low
+- Display the number of matching products.
+- Calculate the average price of visible products.
+- Clear all filters.
+- Display an empty state when no products match.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd challenges
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Concepts Practised
+
+- React useState Hook
+- JavaScript arrays and objects
+- map(), filter(), sort(), and reduce()
+- Spread operator
+- Conditional rendering
+- Event handling
+- Git and GitHub
+
+## Author
+
+**Yeswanth Uggina**
+
+[GitHub](https://github.com/yeswanth412)
